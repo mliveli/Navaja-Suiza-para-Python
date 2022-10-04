@@ -40,6 +40,7 @@ def imprimir_mi_separador(parametro, separador):
     Imprime el parametro proporcionado con un salto de linea inicial y final incluyendo
     20 separadores proporcionados como segundo parametro.
     print("\n", separador * 20, "\n", parametro, "\n", separador * 20, "\n")"""
+    separador = str(separador)
     print(
         "\n",
         separador * 20,
