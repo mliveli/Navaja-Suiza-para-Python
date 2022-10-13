@@ -1,3 +1,14 @@
+import os
+
+
+def limpiar():
+    """
+    No recibe parametros.
+    Limpia la pantalla con el comando "cls".
+    """
+    os.system("cls")
+
+
 def imprimir_ln(parametro):
     """
     Recibe un unico parametro.
